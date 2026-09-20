@@ -29,7 +29,7 @@
       cnt = maxClick;
     }}
   >
-    {#each [5,4,3,2,1] as optionNum}
+    {#each [1,2,3,4,5] as optionNum}
       <option value={optionNum}>
         {optionNum}
       </option>
